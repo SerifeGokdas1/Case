@@ -1,5 +1,5 @@
 # Case
-Merhaba, Oluşturmuş olduğum projelerimi bu repositoryden inceleyebilirsiniz.
+Merhaba, Oluşturmuş olduğum .Net Core Web Api projelerimi bu repositoryden inceleyebilirsiniz. Bu projemde ürün koleksiyonu için MongoDB ve sepet için Redis veritabanlarını kullandığımı belirtmek isterim.
 
 Visual Studio 
 
