@@ -32,15 +32,14 @@ namespace ShoppingBagCase.Controllers
         [HttpPost]
         public ActionResult AddToShoppingBag(CreateShoppingBag shoppingbagTransfer)
         {
-            _shoppingbagService.AddToShoppingBag(shoppingbagTransfer.ProductId, shoppingbagTransfer.Price); //buralaradaki quantıty nereden geliyor bir bak çünkü ben price diye dğiştirmiştirm burayı
-
+_shoppingbagService.AddToShoppingBag(shoppingbagTransfer.ProductId, shoppingbagTransfer.Price);
             return Ok();
         }
 
         [HttpPut]
         public ActionResult UpdateQuantity(UpdateShoppingBag updateShoppingbag)
         {
-            _shoppingbagService.UpdatePrice(updateShoppingbag.ShoppingBagId, updateShoppingbag.Price); //buraları değiştir len.
+            _shoppingbagService.UpdatePrice(updateShoppingbag.ShoppingBagId, updateShoppingbag.Price); 
 
             return Ok();
         }
@@ -48,7 +47,7 @@ namespace ShoppingBagCase.Controllers
         [HttpDelete("{cartId}")]
         public ActionResult<List<ShoppingBagTransfer>> DeleteShoppingBag(string ShoppingBagId)
         {
-            _shoppingbagService.DeleteShoppingBag(ShoppingBagId); //Burada deletecard yazıyordu.
+            _shoppingbagService.DeleteShoppingBag(ShoppingBagId);
 
             return Ok();
         }
