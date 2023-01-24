@@ -10,6 +10,6 @@ Proje VS'de çalıştırıldığındaki görünümü
 ![serifegokdascase2](https://user-images.githubusercontent.com/117410162/214438945-60368e3d-21d2-49fa-b7e2-3a3c624f8661.jpg)
 
 
-Yüklenen verilerin MongoDB'deki görünümü
+Product Koleksiyonuna yüklenen verilerin MongoDB'deki görünümü
 
 ![serifegokdascase3](https://user-images.githubusercontent.com/117410162/214438922-f38abe2b-d9b4-452e-b15b-62ef6dde7cfa.jpg)
